@@ -1,22 +1,22 @@
 #include "main.h"
 /**
- * _abs - Computes the absolute value of an integer.
- * @n: The integer to be computed.
+ * print_alphabet_x10 - a function that prints 10 times the alphabet
  *
- * Return: The absolute value of the integer.
+ * Return: x10 a-z
  */
 void print_alphabet_x10(void)
 {
-	int count = 0; 
-	char n;
+	int n, co;
 
-	while (count < 10)
+	co = 0;
+
+	while (co < 10)
 	{
 		for (n = 'a'; n <= 'z'; n++)
 		{
 			_putchar(n);
 		}
-		count++;
+		co++;
 		_putchar('\n');
 	}
 }
