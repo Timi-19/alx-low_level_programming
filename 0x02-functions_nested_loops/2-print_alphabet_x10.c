@@ -1,9 +1,10 @@
 #include "main.h"
-
 /**
- * print_alphabet - a function that prints the alphabet, in lowercase 10 times
+ * _abs - Computes the absolute value of an integer.
+ * @n: The integer to be computed.
+ *
+ * Return: The absolute value of the integer.
  */
-
 void print_alphabet_x10(void)
 {
 	int count = 0; 
